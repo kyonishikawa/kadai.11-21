@@ -1,0 +1,45 @@
+#name{
+    width: 600px;
+    height: 30px;
+}
+
+#viwe{
+    min-width: 600px;
+    min-height: 400px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#save:hover{
+    background-color: burlywood;
+}
+
+#call:hover{
+    background-color: cyan;
+}
+#delete:hover{
+    background-color: #ec2323;
+}
+#list{
+    
+    margin-left: 650px;
+    margin-top: -500px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+ul li{
+    border: 2px solid orange;
+    margin-bottom: 20px;
+    list-style: none;
+}
+/* 選択したメモファイルを大きくしたい */
+ li:hover{
+    background-color: rgb(204, 129, 16);
+
+}
+
+#t{
+    border: 2px solid blue;
+}
